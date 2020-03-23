@@ -1,0 +1,28 @@
+{
+  "name": "rehype-layout",
+  "repository": "marekweb/rehype-layout",
+  "license": "MIT",
+  "version": "0.1.0",
+  "scripts": {
+    "format": "prettier --write '**/*.{js,md}'",
+    "test": "jest"
+  },
+  "files": [
+    "index.js",
+    "clone-tree.js"
+  ],
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "prettier": "^2.0.1",
+    "rehype-parse": "^6.0.2",
+    "rehype-stringify": "^6.0.1",
+    "unified": "^8.4.2"
+  },
+  "dependencies": {
+    "hast-util-insert": "github:marekweb/hast-util-insert",
+    "unist-util-map": "^2.0.1"
+  },
+  "prettier": {
+    "proseWrap": "always"
+  }
+}
