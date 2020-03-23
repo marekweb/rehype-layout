@@ -15,7 +15,7 @@ function processDocument(input, options) {
     .process(input);
 }
 
-test("test", async () => {
+test("wrap content with layout", async () => {
   const layoutHtml =
     `<header>` +
     `<h1 id="title"></h1>` +
